@@ -1,1 +1,95 @@
 
+
+.git{
+    text-decoration: none;
+    color:white;
+}
+
+.mainFont{
+    font-size: 60px;
+}
+
+
+.all{
+    margin: 5%;
+}
+
+
+.main{
+    vertical-align: middle;
+    padding: 20px;
+    margin-top: 100px;
+    border: 5px solid green;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    text-align: center;
+    
+}
+
+
+.item{
+    float: left;
+    margin-top: 10px;
+    
+    
+    padding: 10px;
+    text-align: center;
+    
+    flex: 1;
+    
+    height: auto;
+    border: 5px solid green;
+    border-radius: 10px;
+    width: 50%; 
+     
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+img{
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .item {
+        border: 10px solid green;
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        
+    }
+
+    .main{
+        
+        border: 10px solid green;
+        margin-top: 200px;
+        height: 200px;
+        
+    }
+
+
+    .mainFont{
+
+        font-size: 80px;
+    }
+
+   
+    
+}
+
+@media screen and (max-width: 785px){
+        .mainFont{
+            font-size: 7vw;
+        }
+
+        
+}
